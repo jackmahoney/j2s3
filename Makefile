@@ -1,0 +1,2 @@
+test:
+	pytest --capture=no
