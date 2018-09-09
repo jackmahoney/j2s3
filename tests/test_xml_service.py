@@ -1,6 +1,6 @@
 import os
 
-from j2s3.pom_service import *
+from j2s3.pom import *
 from j2s3.xml_service import *
 from j2s3.file_service import *
 
