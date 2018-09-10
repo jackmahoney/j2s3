@@ -2,9 +2,6 @@ import subprocess
 
 
 def deploy(dir_path, settings_path):
-    if subprocess.Popen(['which', 'mvn']).returncode > 0:
-        raise Exception('mvn not found in path')
-
     # maven deploy in dir
     cmd = ['mvn', '--settings', settings_path, 'deploy']
     deploy_process = subprocess.Popen(cmd, cwd=dir_path, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
