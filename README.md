@@ -1,5 +1,5 @@
 # Java 2 S3
-![logo.svg](logo.svg)
+<img src="./logo.svg" height=100">
 Python library for publishing maven projects to an S3 maven repository. Requires maven installed in your path. 
 
 ## Why?
