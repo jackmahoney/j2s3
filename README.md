@@ -1,6 +1,6 @@
 # Java 2 Aws S3
 
-<img src="logo.png" height="100"/>
+<img src="logo.png" style="200px;margin:2rem 0;"/>
 <br/>
 Python library for publishing maven projects to an S3 maven repository. Requires maven installed in your path. 
 
