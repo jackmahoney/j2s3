@@ -19,6 +19,6 @@ setup(
     long_description_content_type='text/markdown',
     install_requires=[
         'pytest==3.8.0',
-        'lxml==4.2.4'
+        'lxml==4.6.5'
     ]
 )
